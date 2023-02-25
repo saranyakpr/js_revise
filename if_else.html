@@ -5,8 +5,6 @@
 	<meta http-eqiv="X-UA-compatible" content="IE=Rdge">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>revise</title>
-	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="resume.css">
 </head>
 <body>
    <script>
@@ -121,21 +119,57 @@
 	 <!-- document.write(ans) -->
 	 
 	 
-	 // palindrome
+	 // palindrome_string
 	 
-	 var letter=prompt("Palindrom")
-		var tem=[]
-		for(i=letter.length-1;i>=0;i--){
-			tem+=letter[i]
-			
+	 <!-- let word = prompt('enter a word'); -->
+	 <!-- let tem = []; -->
+	 
+	 <!-- for(i=word.length-1; i>=0; i--){ -->
+	    <!-- tem+=word[i]; -->
+	 <!-- } -->
+	 <!-- if(tem==word){ -->
+	    <!-- document.write('this is palindrome'); -->
+	 <!-- } -->
+	 <!-- else{ -->
+	    <!-- document.write('this is not a palindrome') -->
+	 <!-- } -->
+	 
+	 // palindrome_number
+	 
+	 <!-- let num = parseInt(prompt('enter a number')); -->
+	 <!-- let tem = []; -->
+	 <!-- let num = number; -->
+	 
+	 <!-- while(num>0){ -->
+	    <!-- rem = (num%10); -->
+		<!-- num = (num-rem)/10; -->
+		<!-- tem = (tem*10)+rem; -->
+	 <!-- } -->
+	 <!-- if(tem==num){ -->
+	    <!-- document.write('this is palindrome'); -->
+	 <!-- } -->
+	 <!-- else{ -->
+	    <!-- document.write('this is not a palindrome') -->
+	 <!-- } -->
+	 
+	 
+	 
+	 //declare array in variable
+	 
+	 let str=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+	 
+	 for(i=0; i<str.length; i++){
+	    if(str[i]==7){
+		   console.log(i);
+		   break;
 		}
-		if(letter==tem){
-		 console.log("palindrome")		
-			}
-		else{
-		console.log("not palindrome")
-		}
-    	
+		console.log("hello")
+	 }
+	 
+	 
+	
+	 
+	 
 	 
 	 
    
